@@ -1,41 +1,20 @@
-export interface MenuItem {
-  name: string;
-  description: string;
-  price?: string;
-}
-
-export interface MenuSection {
-  title: string;
-  note: string;
-  items: MenuItem[];
-}
-
-export interface RestaurantData {
-  key: string;
-  name: string;
-  cuisine: string;
-  menuSourceLabel: string;
-  menuSourceUrl: string;
-  bookingUrl: string;
-  hours: string[];
-  heroImage: string;
-  sections: MenuSection[];
-}
-
-export const restaurantData: RestaurantData = {
+export const restaurantData = {
   "key": "chu",
   "name": "Chu The Phat",
   "cuisine": "Asian street food from Hong Kong, Korea and Taiwan in Fish Lane",
-  "menuSourceLabel": "Chu The Phat official site and OpenTable menu listing",
-  "menuSourceUrl": "https://chuthephat.com.au/",
-  "bookingUrl": "https://bookings.nowbookit.com",
+  "menuSourceLabel": "Official website/PDF menus + Google Places",
+  "menuSourceUrl": "https://chuthephat.com.au/menus/",
+  "bookingUrl": "https://bookings.nowbookit.com/?accountid=5af2cf3a-c5c9-4e3c-8db6-85d7f5ad37e5&venueid=1509&theme=light&colors=hex,000000,dd191d",
   "hours": [
-    "Monday 5pm-9pm",
-    "Tuesday-Thursday noon-3pm & 5pm-9pm",
-    "Friday-Saturday noon-10pm",
-    "Sunday noon-9pm"
+    "Monday: 5:00 – 9:00 PM",
+    "Tuesday: 12:00 – 3:00 PM, 5:00 – 9:00 PM",
+    "Wednesday: 12:00 – 3:00 PM, 5:00 – 9:00 PM",
+    "Thursday: 12:00 – 3:00 PM, 5:00 – 9:00 PM",
+    "Friday: 12:00 – 10:00 PM",
+    "Saturday: 12:00 – 10:00 PM",
+    "Sunday: 12:00 – 9:00 PM"
   ],
-  "heroImage": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=1400&q=85",
+  "heroImage": "/images/official-1.jpg",
   "sections": [
     {
       "title": "Snacks",
@@ -115,5 +94,33 @@ export const restaurantData: RestaurantData = {
         }
       ]
     }
-  ]
+  ],
+  "address": "111 Melbourne St, South Brisbane QLD 4101, Australia",
+  "phone": "(07) 3255 2075",
+  "internationalPhone": "+61 7 3255 2075",
+  "email": "",
+  "website": "https://chuthephat.com.au/",
+  "googleMapsUrl": "https://maps.google.com/?cid=7180371308918974819",
+  "rating": 4.5,
+  "reviewCount": 3253,
+  "businessStatus": "OPERATIONAL",
+  "location": {
+    "lat": -27.4749588,
+    "lng": 153.0159496
+  },
+  "logoImage": "/images/logo.png",
+  "galleryImages": [
+    "/images/official-2.jpg",
+    "/images/google-1.jpg",
+    "/images/google-2.jpg",
+    "/images/google-3.jpg"
+  ],
+  "brand": {
+    "bg": "#110d0c",
+    "paper": "#fff5e6",
+    "ink": "#1d1614",
+    "muted": "#765d55",
+    "accent": "#d8191d",
+    "accent2": "#f4b43f"
+  }
 };
