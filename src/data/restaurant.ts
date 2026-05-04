@@ -100,7 +100,7 @@ export const restaurantData = {
   "internationalPhone": "+61 7 3255 2075",
   "email": "",
   "website": "https://chuthephat.com.au/",
-  "googleMapsUrl": "https://maps.google.com/?cid=7180371308918974819",
+  "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Chu%20The%20Phat%20111%20Melbourne%20St%2C%20South%20Brisbane%20QLD%204101%2C%20Australia",
   "rating": 4.5,
   "reviewCount": 3253,
   "businessStatus": "OPERATIONAL",
