@@ -15,8 +15,8 @@ export interface SiteConfig {
 
 export const siteConfig: SiteConfig = {
   name: 'Chu The Phat',
-  tagline: 'Professional restaurant in Brisbane, Australia',
-  description: 'Chu The Phat - restaurant in Brisbane, Australia. Rated 4.5/5 with 3253 reviews.',
+  tagline: "Asian street food from Hong Kong, Korea and Taiwan in Fish Lane",
+  description: "Chu The Phat menu, hours, phone, address and booking details based on public restaurant data.",
   email: 'contact@chu-the-phat.com',
   domain: 'chu-the-phat.webjuice.fengtalk.ai',
   fromName: 'Chu The Phat',
