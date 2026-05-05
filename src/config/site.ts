@@ -5,31 +5,23 @@ export interface SiteConfig {
   email: string;
   domain: string;
   fromName: string;
-  address?: string;
-  phone?: string;
-  rating?: number;
-  review_count?: number;
   navLinks: { label: string; href: string }[];
   footer: { text: string };
 }
 
 export const siteConfig: SiteConfig = {
-  name: 'Chu The Phat',
-  tagline: "Asian street food from Hong Kong, Korea and Taiwan in Fish Lane",
-  description: "Chu The Phat menu, hours, phone, address and booking details based on public restaurant data.",
-  email: 'contact@chu-the-phat.com',
-  domain: 'chu-the-phat.webjuice.fengtalk.ai',
-  fromName: 'Chu The Phat',
-  address: '111 Melbourne St, South Brisbane QLD 4101, Australia',
-  phone: '(07) 3255 2075',
-  rating: 4.5,
-  review_count: 3253,
+  name: 'Bistro Template',
+  tagline: 'Modern Dining, Timeless Flavor',
+  description: 'A beautiful website template for restaurants, cafes, and food businesses.',
+  email: 'hello@bistro.template',
+  domain: 'restaurant.webjuice.fengtalk.ai',
+  fromName: 'Bistro Template',
   navLinks: [
     { label: 'Home', href: '/' },
     { label: 'Menu', href: '/menu' },
     { label: 'Contact', href: '/contact' },
   ],
   footer: {
-    text: 'Chu The Phat - 111 Melbourne St',
+    text: 'Built with WebJuice Stack.',
   },
 };
